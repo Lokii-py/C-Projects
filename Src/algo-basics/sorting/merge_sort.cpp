@@ -45,7 +45,7 @@ int main(){
     vector<int> test = [12, 32, 45, 6, 76, 1, 9];
 
     mergeSort(test, 0, test.size() - 1);
-    for (num: test){
+    for (int num: test){
         cout << num << endl;
     }
 }
